@@ -1,3 +1,22 @@
+body {
+  background: #ecebe7ef;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  opacity: 0.9;
+}
+
+a {
+  color: rgb(221, 28, 89);
+}
+
+img {
+  border-radius: 10px;
+}
+
 .App-logo {
   max-width: 300px;
   display: block;
@@ -8,7 +27,14 @@
   margin: 20px 0;
 }
 
+.outline {
+  border: solid;
+  border-width: thick;
+  padding: 20px 20px;
+  margin: 30px 30px;
+  border-radius: 7px;
+}
+
 .footer {
   text-align: center;
-  margin: 10px 0;
 }

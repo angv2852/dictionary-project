@@ -1,0 +1,17 @@
+.Meaning h3 {
+  font-size: 30px;
+}
+
+.Meaning .definition {
+  line-height: 22px;
+  opacity: 0.9;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.Meaning .example {
+  font-style: oblique;
+  font-size: 19px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}

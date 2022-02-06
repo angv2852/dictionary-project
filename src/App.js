@@ -1,4 +1,4 @@
-import logo from "./dictionary.jpg";
+import logo from "./dictionary2.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 
@@ -6,12 +6,15 @@ export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <header className="App-header">
-          <img src={logo} className="App-logo img fluid" alt="logo" />
-        </header>
-        <main>
-          <Dictionary />
-        </main>
+        <div className="outline">
+          <header className="App-header">
+            <h1>Dictionary</h1>
+            <img src={logo} className="App-logo img fluid" alt="logo" />
+          </header>
+          <main>
+            <Dictionary />
+          </main>
+        </div>
         <footer className="footer">
           <a
             href="https://github.com/angv2852/dictionary-project"
