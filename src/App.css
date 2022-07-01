@@ -1,12 +1,13 @@
 body {
-  background: #ecebe7ef;
+  background-image: url("../src/abstractbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   text-align: center;
   font-weight: bold;
   font-size: 80px;
-  opacity: 0.8;
 }
 
 a {
@@ -18,7 +19,7 @@ img {
 }
 
 .App-logo {
-  max-width: 300px;
+  max-width: 350px;
   display: block;
   margin: 0 auto;
 }
@@ -28,9 +29,11 @@ img {
 }
 
 .outline {
+  background: linear-gradient(#eb3fc8, #f397ee, #eb3fc8);
   border: solid;
+  border-color: rgb(51, 51, 236);
   border-width: thick;
-  padding: 20px 20px;
+  padding: 10px 10px;
   margin: 30px 30px;
   border-radius: 7px;
 }

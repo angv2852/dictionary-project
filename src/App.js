@@ -8,8 +8,12 @@ export default function App() {
       <div className="Container">
         <div className="outline">
           <header className="App-header">
-            <h1>Dictionary</h1>
-            <img src={logo} className="App-logo img fluid" alt="logo" />
+            <h1>English Dictionary</h1>
+            <img
+              src="https://quotefancy.com/media/wallpaper/3840x2160/2615305-Vivienne-Westwood-Quote-Every-time-I-have-to-look-up-a-word-in-the.jpg"
+              className="App-logo img fluid"
+              alt="logo"
+            />
           </header>
           <main>
             <Dictionary />
